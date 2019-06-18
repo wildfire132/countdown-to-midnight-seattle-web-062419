@@ -1,10 +1,10 @@
 #write your code here
 
 def countdown(interger)
-    counter = interger
+    counter = interger.to_int
     while counter != 0
-      counter -=
-      puts "#{interger} SECOND(S)!"
+      puts "#{counter} SECOND(S)!"
+      counter -= 1
     end
   puts "HAPPY NEW YEAR!"
 end
